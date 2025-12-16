@@ -1,4 +1,4 @@
-import { defineConfig } from "minista"
+import {defineConfig} from "minista"
 import path from 'path'
 
 export default defineConfig({
@@ -53,7 +53,7 @@ export default defineConfig({
       rootAttrSuffix: "partial-hydration",
       rootValuePrefix: "ph",
       rootDOMElement: "div",
-      rootStyle: { display: "contents" },
+      rootStyle: {display: "contents"},
       intersectionObserverOptions: {
         root: null,
         rootMargin: "0px",
