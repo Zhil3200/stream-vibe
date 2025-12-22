@@ -45,5 +45,16 @@
       flex-direction: column;
       row-gap: 20px;
     }
+
+    &-link {
+      &:not(:last-child) {
+        padding-right: 20px;
+        border-right: var(--border);
+      }
+      &:not(:first-child) {
+        padding-left: 20px;
+      }
+
+    }
   }
 }
